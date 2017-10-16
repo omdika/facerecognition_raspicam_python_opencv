@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost:8888/CodeIgniter-admin-panel';
+$config['base_url']	= 'http://192.168.1.189/setopbox3';
 
 /*
 |--------------------------------------------------------------------------
@@ -360,3 +360,6 @@ $config['proxy_ips'] = '';
 
 /* End of file config.php */
 /* Location: ./application/config/config.php */
+$config['url_video'] = "http://192.168.1.189:8081";
+$config['url_capture'] = "http://192.168.1.189:8181";
+$config['url_set'] = "http://192.168.1.189:8182";

@@ -1,0 +1,33 @@
+ * Running on http://192.168.1.189:8182/
+ * Restarting with reloader
+192.168.1.189 - - [03/Oct/2017 12:13:13] "GET /cekfc/123 HTTP/1.1" 200 -
+[0] [NTC] [ALL] conf_load: Processing thread 0 - config file /etc/motion/motion.conf
+[0] [ALR] [ALL] conf_cmdparse: Unknown config option "sdl_threadnr"
+[0] [NTC] [ALL] motion_startup: Motion 3.2.12+git20140228 Started
+[0] [NTC] [ALL] motion_startup: Logging to syslog
+[0] [NTC] [ALL] motion_startup: Using log type (ALL) log level (NTC)
+[0] [NTC] [ALL] become_daemon: Motion going to daemon mode
+[0] [NTC] [ALL] create_path: creating directory /var/run/motion
+192.168.1.189 - - [03/Oct/2017 12:13:15] "GET /switchfc/123 HTTP/1.1" 200 -
+192.168.1.189 - - [03/Oct/2017 12:24:20] "GET /cekfc/123 HTTP/1.1" 200 -
+[0] [NTC] [ALL] conf_load: Processing thread 0 - config file /etc/motion/motion.conf
+[0] [ALR] [ALL] conf_cmdparse: Unknown config option "sdl_threadnr"
+[0] [NTC] [ALL] motion_startup: Motion 3.2.12+git20140228 Started
+[0] [NTC] [ALL] motion_startup: Logging to syslog
+[0] [NTC] [ALL] motion_startup: Using log type (ALL) log level (NTC)
+[0] [NTC] [ALL] become_daemon: Motion going to daemon mode
+192.168.1.189 - - [03/Oct/2017 12:24:23] "GET /switchfc/123 HTTP/1.1" 200 -
+cat: /var/www/html/setopbox3/assets/py/log/facerec_pid: No such file or directory
+192.168.1.189 - - [03/Oct/2017 12:24:27] "GET /cekfc/123 HTTP/1.1" 200 -
+cat: /var/www/html/setopbox3/assets/py/log/facerec_pid: No such file or directory
+192.168.1.189 - - [03/Oct/2017 12:51:57] "GET /cekfc/123 HTTP/1.1" 200 -
+cat: /var/www/html/setopbox3/assets/py/log/facerec_pid: No such file or directory
+192.168.1.189 - - [03/Oct/2017 12:52:08] "GET /switchfc/123 HTTP/1.1" 200 -
+[0] [NTC] [ALL] conf_load: Processing thread 0 - config file /etc/motion/motion.conf
+[0] [ALR] [ALL] conf_cmdparse: Unknown config option "sdl_threadnr"
+[0] [NTC] [ALL] motion_startup: Motion 3.2.12+git20140228 Started
+[0] [NTC] [ALL] motion_startup: Logging to syslog
+[0] [NTC] [ALL] motion_startup: Using log type (ALL) log level (NTC)
+[0] [NTC] [ALL] become_daemon: Motion going to daemon mode
+192.168.1.189 - - [03/Oct/2017 12:55:08] "GET /switchfc/123 HTTP/1.1" 200 -
+192.168.1.189 - - [03/Oct/2017 12:59:31] "GET /cekfc/123 HTTP/1.1" 200 -
